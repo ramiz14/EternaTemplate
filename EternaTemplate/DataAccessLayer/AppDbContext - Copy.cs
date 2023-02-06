@@ -12,6 +12,5 @@ namespace EternaTemplate.DataAccessLayer
         public DbSet<Images> images { get; set; }
         public DbSet<Slider> sliders { get; set; }
         public DbSet<Feature> features { get; set; }
-        public DbSet<About> abouts { get; set; }
     }
 }
